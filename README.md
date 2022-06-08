@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the files you need to reproduce our experiments on Flutter reverse engineering.
+This repository contains the files you need to reproduce our experiments on the feasibility of Flutter app reverse engineering.
 
 You can find the non-obfuscated and obfuscated version of the [NyaNya Rocket!](https://github.com/CaramelDunes/nyanya_rocket) Flutter game that we used in our experiments.
 
@@ -11,4 +11,4 @@ Later on, you can use the output of this script to rename/sort functions in IDA 
 
 ## Disclaimer
 
-These scripts are only provided for education purpose and are not meant to be stable reverse engineering tools.
+These scripts are only provided for education purposes and are not meant to be stable reverse engineering tools.
