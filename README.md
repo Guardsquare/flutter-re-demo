@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the files you need to reproduce our experiments on the feasibility of Flutter app reverse engineering.
+This repository contains the files you need to reproduce our experiments on the feasibility of Flutter app reverse engineering. All details can be found in this [post](https://www.guardsquare.com/blog/current-state-and-future-of-reversing-flutter-apps)
 
 You can find the non-obfuscated and obfuscated version of the [NyaNya Rocket!](https://github.com/CaramelDunes/nyanya_rocket) Flutter game that we used in our experiments.
 
