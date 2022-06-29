@@ -15,7 +15,7 @@ Later on, you can use the output of this script to rename/sort functions in IDA 
 
 ### Dealing with Dart decompilation
 
-All details can be found in this [post](https://www.guardsquare.com/blog/current-state-and-future-of-reversing-flutter-apps).
+All details can be found in this [post](https://www.guardsquare.com/blog/obstacles-in-dart-decompilation-and-the-impact-on-flutter-app-security).
 
 The application used in the post is [the obfuscated APK](https://github.com/Guardsquare/flutter-re-demo/blob/main/samples/obfu.apk).
 
