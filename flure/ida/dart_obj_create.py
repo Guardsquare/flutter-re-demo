@@ -40,7 +40,7 @@ class DartObject(object):
         idc.add_struc_member(x, "size_tag", -1, (idc.FF_BYTE | idc.FF_DATA) & 0xFFFFFFFF, -1, 1)
         idc.add_struc_member(x, "cid", -1, (idc.FF_WORD | idc.FF_DATA) & 0xFFFFFFFF, -1, 2)
         idc.add_struc_member(x, "padding", -1, (idc.FF_DWORD | idc.FF_DATA) & 0xFFFFFFFF, -1, 4)
-        idc.add_struc_member(x, "unk", -1, (idc.FF_QWORD | idc.FF_DATA) & 0xFFFFFFFF, -1, 8)
+        idc.add_struc_member(x, "unk_offs", -1, (idc.FF_QWORD | idc.FF_0OFF | idc.FF_DATA) & 0xFFFFFFFF, -1, 8, -1, 0, idc.REF_OFF64)
 
     def get_struct_len(self):
         return -1
